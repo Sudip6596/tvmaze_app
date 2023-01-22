@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap");
+
+.genre_list h2 {
+  font-family: "Comic Neue", cursive;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.list {
+  display: flex;
+  gap: 2rem;
+  overflow: auto;
+  margin-top: 1.5rem;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.list::-webkit-scrollbar {
+  display: none;
+}
+
+.list {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.show {
+  text-align: center;
+}
+.show img {
+  border-radius: 1rem;
+}
+
+.show h3 {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
